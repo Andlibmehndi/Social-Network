@@ -31,10 +31,13 @@ jobs:
     - name: Generate coverage report
       run: coverage report
 
+    - name: Coverage in XML format to display
+      run: coverage xml
+
     - name: Display coverage report
       uses: actions/github-script@v4
       with:
         script: |
           const fs = require('fs');
-          const report = fs.readFileSync('./path/to/coverage-report.txt', 'utf8');
-          console.log(report);
+          const xmlReport = fs.readFileSync('./coverage.xml', 'utf8');
+          console.log(xmlReport);
