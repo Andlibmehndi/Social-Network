@@ -1,6 +1,6 @@
 # Django RESTful API 
 
-Project is using 3rd party package api call. Create account on (https://www.abstractapi.com/) and replace your api keys in  env file 
+Project is using 3rd party package api call. Create account on <a href="https://www.abstractapi.com/" target="_blank">https://www.abstractapi.com</a> and replace your api keys in  env file.
 
 ### **Steps To run run project** 
 Env template present in repo just rename to env
@@ -44,3 +44,4 @@ coverage html
 | PUT | /post/{id}/ |
 | DEL | /post/{id}/ |
 | PUT/POST | /post/{id}/toggle/ |
+
