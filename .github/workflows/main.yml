@@ -30,3 +30,11 @@ jobs:
 
     - name: Generate coverage report
       run: coverage report
+
+    - name: Display coverage report
+      uses: actions/github-script@v4
+      with:
+        script: |
+          const fs = require('fs');
+          const report = fs.readFileSync('./path/to/coverage-report.txt', 'utf8');
+          console.log(report);
