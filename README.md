@@ -45,3 +45,7 @@ coverage html
 | DEL | /post/{id}/ |
 | PUT/POST | /post/{id}/toggle/ |
 
+
+### CI pipeline Added to run test case & coverage on any commit to main branch it will trigger pipeline.
+
+Source code path `.github\workflows\main.yml`
