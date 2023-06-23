@@ -1,0 +1,8 @@
+Django
+requests
+django-extensions
+djangorestframework-simplejwt
+markdown
+python-dotenv
+django-filter
+coverage
